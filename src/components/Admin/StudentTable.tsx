@@ -78,15 +78,15 @@ const StudentTable: React.FC = () => {
         const token = localStorage.getItem('token');
         const headers: HeadersInit = token ? { 'Authorization': `Bearer ${token}` } : {};
 
-        const studentsResponse = await fetch('http://localhost:3000/api/auth/students-test', { headers });
+        const studentsResponse = await fetch('http://careerpath.vedcool.ai/api/auth/students-test', { headers });
         if (!studentsResponse.ok) throw new Error('Failed to fetch students');
         const studentsData: Student[] = await studentsResponse.json();
         setStudents(studentsData);
 
-        const questionnaireResponse = await fetch('http://localhost:3000/api/auth/questionnaire-data', { headers });
+        const questionnaireResponse = await fetch('http://careerpath.vedcool.ai/api/auth/questionnaire-data', { headers });
         if (questionnaireResponse.ok) setQuestionnaireData(await questionnaireResponse.json());
 
-        const marksResponse = await fetch('http://localhost:3000/api/marks/all-marks', { headers });
+        const marksResponse = await fetch('http://careerpath.vedcool.ai/api/marks/all-marks', { headers });
         if (!marksResponse.ok) throw new Error('Failed to fetch marks');
         setMarksData(await marksResponse.json());
       } catch (err) {
@@ -123,7 +123,7 @@ const StudentTable: React.FC = () => {
         return;
       }
 
-      const response = await fetch(`http://localhost:3000/api/files/upload-report/${studentId}`, {
+      const response = await fetch(`http://careerpath.vedcool.ai/api/files/upload-report/${studentId}`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -140,7 +140,7 @@ const StudentTable: React.FC = () => {
       setUploadFile(prev => ({ ...prev, [studentId]: null }));
 
       // Refresh student data
-      const studentsResponse = await fetch('http://localhost:3000/api/auth/students-test', {
+      const studentsResponse = await fetch('http://careerpath.vedcool.ai/api/auth/students-test', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (studentsResponse.ok) {
@@ -157,7 +157,7 @@ const StudentTable: React.FC = () => {
   const handleDownload = async (path: string, fileName: string) => {
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`http://localhost:3000/api/files/download/${path}`, {
+      const response = await fetch(`http://careerpath.vedcool.ai/api/files/download/${path}`, {
         method: 'GET',
         headers: { 'Authorization': `Bearer ${token}` },
       });
