@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, ChevronUp, BookOpen, Copy, Upload } from 'lucide-react';
+import { BookOpen, Copy, Upload } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface Student {
@@ -144,35 +144,13 @@ const StudentTable: React.FC = () => {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (studentsResponse.ok) {
-        const updatedStudents: Student[] = await studentsResponse.json();
+        //const updatedStudents: Student[] = await studentsResponse.json();
         setStudents(students);
       }
     } catch (error) {
       console.error('Upload error:', error);
       const errorMessage = error instanceof Error ? error.message : 'Failed to upload file';
       setUploadStatus(prev => ({ ...prev, [studentId]: errorMessage }));
-    }
-  };
-
-  const handleDownload = async (path: string, fileName: string) => {
-    try {
-      const token = localStorage.getItem('token');
-      const response = await fetch(`http://careerpath.vedcool.ai/api/files/download/${path}`, {
-        method: 'GET',
-        headers: { 'Authorization': `Bearer ${token}` },
-      });
-      if (!response.ok) throw new Error('Failed to download file');
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = fileName;
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-      document.body.removeChild(a);
-    } catch (error) {
-      alert('Failed to download file.');
     }
   };
 
