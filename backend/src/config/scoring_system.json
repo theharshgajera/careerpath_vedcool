@@ -1,0 +1,202 @@
+{
+    "q1": {
+        "Teamwork": {"A": 2, "B": 0, "C": 10, "D": 5},
+        "Conflict Resolution": {"A": 0, "B": 0, "C": 10, "D": 5}
+    },
+    "q2": {
+        "Mathematical Skills": {"A": 10, "B": 0, "C": 2, "D": 0},
+        "Analytical Thinking": {"A": 10, "B": 0, "C": 5, "D": 0}
+    },
+    "q3": {
+        "Verbal Communication": {"A": 10, "B": 2, "C": 0, "D": 5},
+        "Empathy": {"A": 10, "B": 0, "C": 0, "D": 2}
+    },
+    "q4": {
+        "Creativity": {"A": 10, "B": 7, "C": 2, "D": 0},
+        "Innovation": {"A": 5, "B": 10, "C": 0, "D": 0}
+    },
+    "q5": {
+        "Time Management": {"A": 10, "B": 5, "C": 0, "D": 2},
+        "Decision-Making": {"A": 10, "B": 5, "C": 0, "D": 5}
+    },
+    "q6": {
+        "Logical Reasoning": {"A": 10, "B": 2, "C": 5, "D": 0},
+        "Problem-Solving": {"A": 10, "B": 2, "C": 5, "D": 0}
+    },
+    "q7": {
+        "Strategic Planning": {"A": 10, "B": 5, "C": 0, "D": 0},
+        "Research Skills": {"A": 10, "B": 7, "C": 0, "D": 0}
+    },
+    "q8": {
+        "Presentation Skills": {"A": 10, "B": 2, "C": 5, "D": 7},
+        "Public Speaking": {"A": 10, "B": 0, "C": 5, "D": 2}
+    },
+    "q9": {
+        "Active Listening": {"A": 10, "B": 2, "C": 5, "D": 0},
+        "Empathy": {"A": 10, "B": 0, "C": 2, "D": 0}
+    },
+    "q10": {
+        "Negotiation": {"A": 10, "B": 7, "C": 2, "D": 5},
+        "Persuasion": {"A": 5, "B": 10, "C": 0, "D": 2}
+    },
+    "q11": {
+        "Data Analysis": {"A": 10, "B": 5, "C": 2, "D": 0},
+        "Mathematical Skills": {"A": 10, "B": 5, "C": 2, "D": 0}
+    },
+    "q12": {
+        "Leadership": {"A": 10, "B": 0, "C": 2, "D": 5},
+        "Teamwork": {"A": 10, "B": 2, "C": 0, "D": 5}
+    },
+    "q13": {
+        "Design Thinking": {"A": 10, "B": 7, "C": 0, "D": 2},
+        "Artistic Skills": {"A": 10, "B": 5, "C": 0, "D": 2}
+    },
+    "q14": {
+        "Technical Aptitude": {"A": 10, "B": 5, "C": 0, "D": 2},
+        "Problem-Solving": {"A": 10, "B": 7, "C": 0, "D": 0}
+    },
+    "q15": {
+        "Written Communication": {"A": 10, "B": 5, "C": 0, "D": 7},
+        "Content Creation": {"A": 10, "B": 7, "C": 0, "D": 5}
+    },
+    "q16": {
+        "Persuasion": {"A": 10, "B": 0, "C": 5, "D": 2},
+        "Entrepreneurial Mindset": {"A": 10, "B": 0, "C": 5, "D": 2}
+    },
+    "q17": {
+        "Attention to Detail": {"A": 10, "B": 0, "C": 5, "D": 0},
+        "Work Ethic": {"A": 10, "B": 0, "C": 5, "D": 0}
+    },
+    "q18": {
+        "Networking": {"A": 10, "B": 5, "C": 0, "D": 7},
+        "Relationship Building": {"A": 10, "B": 2, "C": 0, "D": 5}
+    },
+    "q19": {
+        "Coding/Programming": {"A": 10, "B": 5, "C": 7, "D": 0},
+        "Problem-Solving": {"A": 10, "B": 2, "C": 5, "D": 0}
+    },
+    "q20": {
+        "Organizational Skills": {"A": 10, "B": 0, "C": 2, "D": 5},
+        "Time Management": {"A": 10, "B": 0, "C": 2, "D": 5}
+    },
+    "q21": {
+        "Scientific Knowledge": {"A": 10, "B": 5, "C": 0, "D": 0},
+        "Critical Thinking": {"A": 10, "B": 2, "C": 0, "D": 0}
+    },
+    "q22": {
+        "Collaboration": {"A": 10, "B": 2, "C": 0, "D": 5},
+        "Conflict Resolution": {"A": 10, "B": 0, "C": 0, "D": 2}
+    },
+    "q23": {
+        "Resilience": {"A": 10, "B": 5, "C": 0, "D": 0},
+        "Work Ethic": {"A": 10, "B": 2, "C": 0, "D": 0}
+    },
+    "q24": {
+        "Digital Literacy": {"A": 10, "B": 7, "C": 5, "D": 0},
+        "Adaptability": {"A": 10, "B": 5, "C": 7, "D": 0}
+    },
+    "q25": {
+        "Project Management": {"A": 10, "B": 5, "C": 2, "D": 0},
+        "Leadership": {"A": 10, "B": 5, "C": 0, "D": 2}
+    },
+    "q26": {
+        "Collaboration": {"A": 10, "B": 0, "C": 2, "D": 5},
+        "Empathy": {"A": 10, "B": 0, "C": 0, "D": 2}
+    },
+    "q27": {
+        "Mathematical Skills": {"A": 10, "B": 2, "C": 0, "D": 5},
+        "Logical Reasoning": {"A": 10, "B": 2, "C": 0, "D": 5}
+    },
+    "q28": {
+        "Public Speaking": {"A": 10, "B": 2, "C": 5, "D": 0},
+        "Persuasion": {"A": 10, "B": 5, "C": 2, "D": 0}
+    },
+    "q29": {
+        "Adaptability": {"A": 10, "B": 2, "C": 0, "D": 0},
+        "Critical Thinking": {"A": 10, "B": 0, "C": 0, "D": 0}
+    },
+    "q30": {
+        "Research Skills": {"A": 10, "B": 5, "C": 2, "D": 0},
+        "Attention to Detail": {"A": 10, "B": 2, "C": 0, "D": 0}
+    },
+    "q31": {
+        "Leadership": {"A": 10, "B": 5, "C": 0, "D": 2},
+        "Creativity": {"A": 10, "B": 0, "C": 0, "D": 0}
+    },
+    "q32": {
+        "Written Communication": {"A": 10, "B": 2, "C": 5, "D": 7},
+        "Attention to Detail": {"A": 10, "B": 0, "C": 2, "D": 5}
+    },
+    "q33": {
+        "Coding/Programming": {"A": 10, "B": 5, "C": 7, "D": 0},
+        "Analytical Thinking": {"A": 10, "B": 2, "C": 5, "D": 0}
+    },
+    "q34": {
+        "Project Management": {"A": 10, "B": 5, "C": 2, "D": 7},
+        "Decision-Making": {"A": 10, "B": 5, "C": 2, "D": 5}
+    },
+    "q35": {
+        "Design Thinking": {"A": 10, "B": 5, "C": 0, "D": 0},
+        "Artistic Skills": {"A": 10, "B": 7, "C": 2, "D": 0}
+    },
+    "q36": {
+        "Relationship Building": {"A": 10, "B": 2, "C": 0, "D": 5},
+        "Active Listening": {"A": 10, "B": 0, "C": 0, "D": 2}
+    },
+    "q37": {
+        "Adaptability": {"A": 10, "B": 2, "C": 5, "D": 0},
+        "Resilience": {"A": 10, "B": 5, "C": 2, "D": 0}
+    },
+    "q38": {
+        "Data Analysis": {"A": 10, "B": 0, "C": 5, "D": 0},
+        "Mathematical Skills": {"A": 10, "B": 0, "C": 5, "D": 0}
+    },
+    "q39": {
+        "Entrepreneurial Mindset": {"A": 10, "B": 7, "C": 0, "D": 2},
+        "Strategic Planning": {"A": 10, "B": 5, "C": 0, "D": 0}
+    },
+    "q40": {
+        "Scientific Knowledge": {"A": 10, "B": 0, "C": 5, "D": 2},
+        "Critical Thinking": {"A": 10, "B": 0, "C": 5, "D": 2}
+    },
+    "q41": {
+        "Content Creation": {"A": 10, "B": 7, "C": 2, "D": 5},
+        "Creativity": {"A": 10, "B": 5, "C": 0, "D": 2}
+    },
+    "q42": {
+        "Technical Aptitude": {"A": 10, "B": 2, "C": 5, "D": 0},
+        "Problem-Solving": {"A": 10, "B": 0, "C": 5, "D": 0}
+    },
+    "q43": {
+        "Persuasion": {"A": 10, "B": 2, "C": 0, "D": 5},
+        "Verbal Communication": {"A": 10, "B": 5, "C": 0, "D": 2}
+    },
+    "q44": {
+        "Organizational Skills": {"A": 10, "B": 2, "C": 0, "D": 0},
+        "Collaboration": {"A": 10, "B": 0, "C": 2, "D": 0}
+    },
+    "q45": {
+        "Logical Reasoning": {"A": 10, "B": 0, "C": 5, "D": 0},
+        "Critical Thinking": {"A": 10, "B": 0, "C": 5, "D": 0}
+    },
+    "q46": {
+        "Networking": {"A": 10, "B": 2, "C": 0, "D": 0},
+        "Relationship Building": {"A": 10, "B": 5, "C": 0, "D": 0}
+    },
+    "q47": {
+        "Design Thinking": {"A": 10, "B": 0, "C": 5, "D": 2},
+        "Innovation": {"A": 10, "B": 0, "C": 2, "D": 5}
+    },
+    "q48": {
+        "Coding/Programming": {"A": 10, "B": 7, "C": 0, "D": 2},
+        "Teamwork": {"A": 10, "B": 0, "C": 0, "D": 2}
+    },
+    "q49": {
+        "Work Ethic": {"A": 10,  "B": 5, "C": 2, "D": 0},
+        "Resilience": {"A": 10, "B": 5, "C": 2, "D": 0}
+    },
+    "q50": {
+        "Presentation Skills": {"A": 10, "B": 2, "C": 5, "D": 0},
+        "Data Analysis": {"A": 10, "B": 5, "C": 0, "D": 2}
+    }
+  }

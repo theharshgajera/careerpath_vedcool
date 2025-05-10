@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Base Directory & Module Resolution */
+    "baseUrl": "./src",
+    "paths": {
+      "@models/*": ["models/*"]
+    },
+    "moduleResolution": "node",
+
+    /* Targeting & Module System */
+    "target": "ESNext",
+    "module": "CommonJS",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    /* JSX (If using React) */
+    "jsx": "react-jsx", 
+
+    /* Type Checking */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* JSON & Additional Configurations */
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+
+    /* Decorators (Enable if needed for NestJS, TypeORM, etc.) */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
