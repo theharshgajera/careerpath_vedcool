@@ -15,7 +15,7 @@ const Dashboard: React.FC = () => {
       };
 
       // Fetch report status
-      const reportResponse = await fetch('http://careerpath.vedcool.ai/api/auth/report-status', { headers });
+      const reportResponse = await fetch('http://api.careerpath.vedcool.ai/api/auth/report-status', { headers });
       if (!reportResponse.ok) throw new Error('Failed to fetch status');
       const reportData = await reportResponse.json();
       setStatus(reportData.status);
@@ -36,7 +36,7 @@ const Dashboard: React.FC = () => {
     if (!reportPath) return;
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`http://careerpath.vedcool.ai/api/files/download/${reportPath}`, {
+      const response = await fetch(`http://api.careerpath.vedcool.ai/api/files/download/${reportPath}`, {
         method: 'GET',
         headers: { 'Authorization': `Bearer ${token}` },
       });

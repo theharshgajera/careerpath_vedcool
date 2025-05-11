@@ -27,7 +27,7 @@ const Login: React.FC = () => {
       await login(formData.email, formData.password);
       
       // Fetch report status after login
-      const response = await fetch(`${import.meta.env.VITE_API_BASE || 'http://careerpath.vedcool.ai/api'}/questionnaire/report-status`, {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE || 'http://api.careerpath.vedcool.ai/api'}/questionnaire/report-status`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
